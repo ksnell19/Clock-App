@@ -34,15 +34,13 @@ body{
 @media only screen and (max-width: 992px) {
   #displayInfo{
     text-align: center;
-    font-size: 1.5em;
-    margin-top: 240px;
+    font-size: 20px;
+    /* margin-top: 190px; */
   }
 }
 @media only screen and (max-width: 768px) {
   #displayInfo{
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 240px;
+    margin-top: 300px;
   }
   #input{
     height: 0;
