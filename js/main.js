@@ -5,7 +5,7 @@ days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday
 function date_time(){
   const now = new Date();
   const year = now.getFullYear();
-  const month = now.getMonth()+1;
+  const month = now.getMonth();  //Month doesn't need +1
   const day = now.getDay();
 
   d = now.getDate();
@@ -28,10 +28,3 @@ function date_time(){
 };
 
 setInterval(date_time, 1000);
-
-
-//Input and Button delay?
-// $( "button" ).click(function() {
-//   $( "#input" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-//   $(.myBtn).slideUp(300).delay(800).fadeIn(400);
-// });
