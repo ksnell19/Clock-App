@@ -6,10 +6,10 @@ body{
   -o-background-size: cover;
   background-size: cover;
   font-family: Futura;
+  font-size: 15px;
 }
 
 #displayInfo{
-  font-size: 2em;
   color: #66A530;
   font-family: Futura;
   font-size: 2.5em;
@@ -21,6 +21,7 @@ body{
 
 #input{
   width: 240px;
+  height: auto;
   margin: 0 auto;
 }
 
@@ -34,10 +35,16 @@ body{
   #displayInfo{
     text-align: center;
     font-size: 1.5em;
-    margin-top: 200px;
+    margin-top: 240px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #displayInfo{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 240px;
+  }
+  #input{
 
   }
 }
-@media only screen and (min-width: 768px) {
-  
- }
