@@ -23,6 +23,8 @@ body{
 .myBtn{
   background-color: #66A530;
   color: #fff;
+  border-radius: 3px;
+  padding: 2px 7px 2px 7px;
   cursor: pointer;
 }
 
