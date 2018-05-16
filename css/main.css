@@ -17,7 +17,7 @@ body{
 }
 
 #input{
-  margin-left: 730px;
+  text-align: center;
 }
 
 .myBtn{
@@ -30,25 +30,13 @@ body{
   cursor: pointer;
 }
 
-
-
+/* Mobile */
 @media only screen and (max-width: 992px) {
   #displayInfo{
-    text-align: center;
-    font-size: 20px;
-    margin-top: 270px;
-  }
-  #input{
-    margin-left: 25%;
-  }
-  .myBtn{
-    /* margin-left: 5px; */
+    font-size: 21px;
+    margin-top: 200px;
   }
 }
 @media only screen and (max-width: 768px) {
-/* #displayInfo{
-  margin-top: 240px;
-  }
-  #input{
-  } */
+  
 }
