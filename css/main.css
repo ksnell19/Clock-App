@@ -34,7 +34,7 @@ body{
 @media only screen and (max-width: 992px) {
   #displayInfo{
     font-size: 21px;
-    margin-top: 190px;
+    margin-top: 180px;
   }
 }
 @media only screen and (max-width: 768px) {
