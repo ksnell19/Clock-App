@@ -18,6 +18,10 @@ body{
 
 #input{
   text-align: center;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .myBtn{
@@ -34,7 +38,7 @@ body{
 @media only screen and (max-width: 992px) {
   #displayInfo{
     font-size: 21px;
-    margin-top: 180px;
+    margin-top: 190px;
   }
 }
 @media only screen and (max-width: 768px) {
